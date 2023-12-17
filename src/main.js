@@ -1,6 +1,6 @@
-import { createApp } from 'vue'
+import { createApp } from 'vue';
 //file stili di progetto
-import './style.css'
-import App from './App.vue'
+import './assets/scss/app.scss';
+import App from './App.vue';
 
-createApp(App).mount('#app')
+createApp(App).mount('#app');
